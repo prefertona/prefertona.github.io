@@ -1,0 +1,38 @@
+.site-header{
+  display: inline;
+}
+.container {
+  display:block;
+  border: solid;
+  height: auto;
+}
+h1 {
+  border: solid;
+  display:inline;
+  margin-left: 250px;
+  font-size: 40px;
+}
+#social-buttons{
+  display:inline-block;
+  border:solid;
+  margin-left:300px;
+  font-size: 20px;
+}
+
+#social-buttons li{
+  list-style-type: none;
+  display: inline;
+  margin: 0 30px 0 30px;
+  border:solid;
+}
+p {
+  border: solid;
+}
+.image {
+  margin:auto;
+  padding-left: 750px;
+}
+.joyful-things {
+ border: 5px solid;
+ list-style-type: none;
+}

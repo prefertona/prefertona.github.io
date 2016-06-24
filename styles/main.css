@@ -1,38 +1,53 @@
+div {
+  height: 10px;
+}
+body {
+  background-color: #f28c5a;
+}
 .site-header{
   display: inline;
 }
 .container {
   display:block;
-  border: solid;
-  height: auto;
+  height: 150px;
 }
 h1 {
   border: solid;
   display:inline;
   margin-left: 250px;
   font-size: 40px;
+  font-family: 'Neucha', Arial;
 }
-#social-buttons{
-  display:inline-block;
-  border:solid;
-  margin-left:300px;
-  font-size: 20px;
-}
-
-#social-buttons li{
-  list-style-type: none;
-  display: inline;
-  margin: 0 30px 0 30px;
-  border:solid;
+p:nth-child(2){
+  background-color: #333333;
+  color:#bfbfbf;
 }
 p {
   border: solid;
+  font: 20px "Josefin Slab";
+  width: 1000px;
+  margin: 0  auto 0 auto;
+  line-height: 30px;
 }
 .image {
   margin:auto;
-  padding-left: 750px;
+  padding-left: 650px;
 }
 .joyful-things {
  border: 5px solid;
  list-style-type: none;
+}
+#social-buttons{
+  display:inline-block;
+  margin-left:300px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+#social-buttons li{
+  list-style-type: none;
+  display: inline;
+  border: solid;
+  margin: 0 30px 0 30px;
+  font-family: "Neucha", "Josefin Slab", "Hind Siliguri"
+  text-decoration: none;
 }

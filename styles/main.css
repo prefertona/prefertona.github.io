@@ -4,6 +4,9 @@ div {
 body {
   background-color: #f28c5a;
 }
+footer {
+  text-align: center;
+}
 .site-header{
   display: inline;
 }
@@ -18,7 +21,8 @@ h1 {
   font-size: 40px;
   font-family: 'Neucha', Arial;
 }
-p:nth-child(2){
+p:nth-child(3)
+  {
   background-color: #333333;
   color:#bfbfbf;
 }
@@ -32,9 +36,10 @@ p {
 .image {
   margin:auto;
   padding-left: 650px;
+
 }
 .joyful-things {
- border: 5px solid;
+  display: block;
  list-style-type: none;
 }
 #social-buttons{
@@ -50,4 +55,9 @@ p {
   margin: 0 30px 0 30px;
   font-family: "Neucha", "Josefin Slab", "Hind Siliguri"
   text-decoration: none;
+}
+span {
+  display: inline-block;
+  text-align: center;
+  margin-left: 700px;
 }

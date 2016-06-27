@@ -21,7 +21,7 @@ h1 {
   font-size: 40px;
   font-family: 'Neucha', Arial;
 }
-p:nth-child(3)
+p:nth-child(4)
   {
   background-color: #333333;
   color:#bfbfbf;
@@ -55,9 +55,4 @@ p {
   margin: 0 30px 0 30px;
   font-family: "Neucha", "Josefin Slab", "Hind Siliguri"
   text-decoration: none;
-}
-span {
-  display: inline-block;
-  text-align: center;
-  margin-left: 700px;
 }
